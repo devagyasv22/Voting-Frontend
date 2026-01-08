@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { getResults } from "../api/candidate"; // Ensure this matches your file path
 import { io } from "socket.io-client";
 
-const socket = io("http://https://voting-backend-g6ok.onrender.com");
+const socket = io("https://voting-backend-g6ok.onrender.com");
 
 export default function Results() {
   const [results, setResults] = useState([]);
