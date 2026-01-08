@@ -4,7 +4,7 @@ import CandidateCard from "../components/CandidateCard";
 import { useNavigate } from "react-router-dom";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:5001");
+const socket = io("http://https://voting-backend-g6ok.onrender.com");
 
 export default function Vote() {
   const [candidates, setCandidates] = useState([]);
